@@ -5,8 +5,8 @@
 
 if [ $# -lt 3 ]
 then
-  echo "Usage: ./deply.sh srcFile(or Dir) descFile(or Dir) MachineTag"
-  echo "Usage: ./deply.sh srcFile(or Dir) descFile(or Dir) MachineTag confFile"
+  echo "Usage: ./deploy.sh srcFile(or Dir) descFile(or Dir) MachineTag"
+  echo "Usage: ./deploy.sh srcFile(or Dir) descFile(or Dir) MachineTag confFile"
   exit
 fi
 
